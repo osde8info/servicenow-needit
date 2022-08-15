@@ -20,6 +20,7 @@
             </choice>
         </element>
         <element attributes="edge_encryption_enabled=true" label="New Date/Time" max_length="40" name="u_glide_date_time_1" type="glide_date_time"/>
+        <element attributes="edge_encryption_enabled=true" label="other" max_length="40" name="u_other_1" type="string"/>
         <element attributes="encode_utf8=false" label="user" max_length="32" name="u_reference_2" reference="sys_user" type="reference"/>
     </element>
 </database>
